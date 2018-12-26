@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<url>
+  <loc>http://semcrack.com/</loc>
+  <changefreq>always</changefreq>
+  <priority>1.0</priority>
+</url>
+<url>
+  <loc>http://semcrack.com/signin</loc>
+  <changefreq>always</changefreq>
+  <priority>0.5</priority>
+</url>
+<url>
+  <loc>http://semcrack.com/signup</loc>
+  <changefreq>always</changefreq>
+  <priority>0.5</priority>
+</url>
+<url>
+  <loc>http://semcrack.com/post</loc>
+  <changefreq>always</changefreq>
+  <priority>0.5</priority>
+</url>
+<url>
+  <loc>http://semcrack.com/</loc>
+  <changefreq>always</changefreq>
+  <priority>0.5</priority>
+</url>
+<url>
+  <loc>http://semcrack.com/contact</loc>
+  <changefreq>always</changefreq>
+  <priority>0.5</priority>
+</url>
+<url>
+  <loc>http://semcrack.com/about</loc>
+  <changefreq>always</changefreq>
+  <priority>0.5</priority>
+</url>
+<url>
+  <loc>http://semcrack.com/help</loc>
+  <changefreq>always</changefreq>
+  <priority>0.5</priority>
+</url>
+<url>
+  <loc>http://semcrack.com/termsandcondition</loc>
+  <changefreq>always</changefreq>
+  <priority>0.5</priority>
+</url>
+<url>
+  <loc>http://semcrack.com/create</loc>
+  <changefreq>always</changefreq>
+  <priority>0.5</priority>
+</url>
+<url>
+  <loc>http://semcrack.com/profile</loc>
+  <changefreq>always</changefreq>
+  <priority>0.5</priority>
+</url>
+<url>
+  <loc>http://semcrack.com/setting</loc>
+  <changefreq>always</changefreq>
+  <priority>0.5</priority>
+</url>
+<url>
+  <loc>http://semcrack.com/search</loc>
+  <changefreq>always</changefreq>
+  <priority>0.5</priority>
+</url>
+<url>
+  <loc>http://semcrack.com/review</loc>
+  <changefreq>always</changefreq>
+  <priority>0.5</priority>
+</url>
+</urlset>

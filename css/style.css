@@ -1,0 +1,245 @@
+html,body{
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  width: 100%;
+}
+::-webkit-input-placeholder {
+    color: #fff;
+  }
+
+::-webkit-scrollbar{
+  width: 10px;
+  background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb{
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+  background-color: grey;
+}
+
+.tip {
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  background: transparent;
+  border: 10px solid #ccc;
+}
+.tip-left {
+  top: 10px;
+  left: -25px;
+  border-top-color: transparent;
+  border-left-color: transparent;
+  border-bottom-color: transparent;  
+}
+.dialogbox{
+  max-width: 80%;
+}
+.dialogbox .body {
+  position: relative;
+  height: auto;
+  margin: 0px 10px;
+  padding: 5px;
+  background-color: #DADADA;
+  border-radius: 3px;
+  word-wrap: break-word;
+  border: 5px solid #ccc;
+}
+
+.body .message {
+  min-height: 30px;
+  border-radius: 3px;
+  font-family: Arial;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #797979;
+}
+.search-form{
+  margin-left:120px;
+}
+.input-box{
+  width: 320px;
+  border:none;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+}
+.post-approval{
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+  float:left;
+  width:300px;
+  padding:20px;
+  margin:12px;
+  background-color: white;
+}
+.left{
+  background-color:rgb(28, 38, 47);
+  color:#D0D3D4;
+  height:100%;
+  width:20%;
+  padding-top:50px;
+  float: left;
+  position: fixed;
+  border-right: 2px solid #eee;
+}
+.right{
+  height:100%;
+  width:80%;
+  float:right;
+  padding-left: 50px;
+  padding-right:50px;
+}
+.input-box:hover{
+  box-shadow: 0 3px 15px 0 rgba(0,0,0,0.2), 0 0 0 1px rgba(0,0,0,0.08);
+}
+.side{
+  background-color: #fff;
+  padding: 20px;
+}
+.post{
+  background-color: #fff;
+  padding: 20px;
+}
+.search-result{
+  background-color:white;
+  margin-top:2%;
+  margin-left:2%;margin-right:2%;
+  padding:10px;
+  border-radius: 8px;
+
+}
+.searchbar,.searchbar-2 {
+  font-size: 18px;
+}
+.nav-bar {
+  height: 50px;
+}
+.nav-bar-2 {
+  height: 100px;
+  padding:15px;
+  background-color: #67b6ff;
+  border-bottom: solid #e4e4e4 0.1px;
+}
+.footer{
+  border-top: solid #e4e4e4 0.1px;
+  padding:10px;
+  position: absolute;
+  bottom: 0;
+  height: 50px;
+  width: 100%;
+  color: grey;
+  background-color: #f2f2f2;
+}
+.result1,.result2{
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+  position: relative;
+  max-height: 150px;
+  overflow: auto;
+}
+.livesearch-result:hover{
+  background-color: #eee;
+}
+
+@media screen and (min-width : 640px) {
+  .searchbar{
+     width: 45%;
+  }
+  .contribution-mobile{
+    display: none;
+  }
+  .searchbar-2{
+    width: 45%;
+  }
+  .search-result{
+    margin-left: 117px;
+  }
+  .postcontent{
+    width: 60%;
+    float: left;
+  }
+  .side{
+    width: 35%;
+    float: right;
+  }
+  .hello10{
+    margin: 50px;
+  }
+  .result1{
+    width:45%;
+    border:none;
+  }
+  .result2{
+    width:40%;
+  }
+  .form{
+    width:400px;
+    padding-top:50px;
+    padding-bottom:20px;
+    background-color: white;
+    box-shadow: 0 3px 8px 0 rgba(0,0,0,0.2), 0 0 0 1px rgba(0,0,0,0.08);
+  }
+  .body{
+    background-color: #fbfbfb;
+  }
+  .sidebar{
+    float: left;
+    width: 100px;
+    border-right:#eee;
+  }
+  .mobile{
+    display: none;
+  }
+}
+
+@media screen and (max-width : 640px) {
+  .searchbar{
+    width: 95%;
+    margin-top:50px;
+  }
+  .contribution-desktop{
+    display: none;
+  }
+  .searchbar-2{
+    width: 95%;
+  }
+  .search-form{
+    margin-left: 0px;
+    margin-right: -15px;
+  }
+  .search-button{
+    padding-left: 2px;
+    padding-right: 2px;
+  }
+  .side{
+    display:none;
+  }
+  .hello{
+    margin:10px;
+  }
+  .mobilesearch{
+    background-color: #f2f2f2;
+  }
+  .nav-bar-2{
+    background-color: #67b6ff;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16);
+    height: 130px;
+  }
+  .search-result{
+    box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+  }
+  .result1{
+    width: 95%;
+    margin-top: 1px;
+  }
+  .result2{
+    width:85%;
+  }
+  .body{
+    background-color: white;
+  }
+  .desktop{
+    display: none;
+  }
+  .searchlogin{
+    display: none;
+  }
+}
